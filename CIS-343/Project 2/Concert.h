@@ -49,16 +49,6 @@ class Concert
 		const int getDesire();
 		const std::tm getDate();
 
-
-
-		/******************************************************
-		*	less-than (<) Operator Overload
-		*
-		*	providing a way to compare different Concerts 
-		*	by looking at dates first, and then by desire
-		******************************************************/
-		std::ostream& operator<<(std::ostream& out, Concert  &c);
-
 	private:
 
 		// A string holding the name of the Concert

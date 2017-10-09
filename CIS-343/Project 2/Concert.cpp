@@ -1,7 +1,10 @@
 /*********************************************************
-*	A file that implements the Concert.h
-*	
-*	Created by: Dylan Kernohan on 10/2/2017
+*	Implementation of a Concert class
+*	This class has two constructors that initialize variables
+* 	Overloads the less-than operator for Concert objects
+*	Overloads the cout operator for Concert objects
+* 	also has a main method that creates 10 Concerts and
+* 	then prints out a sorted list of them using std::sort
 **********************************************************/
 
 #include "Concert.h"
@@ -14,7 +17,7 @@
 
 /******************************************************
 *	Default Constructor
-*  initializes variables
+*  	initializes variables
 ******************************************************/
 Concert::Concert(){
 	concertName = "";
